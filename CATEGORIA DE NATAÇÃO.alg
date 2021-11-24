@@ -1,0 +1,55 @@
+Algoritmo "semnome"
+
+Var
+    IFA, OP : INTEIRO
+
+
+Inicio
+      ESCREVAL ("-------- MENU -----------")
+      ESCREVAL (" 1 - VERIFIQUE SUA IDADE!")
+      ESCREVAL (" 2 - SAIR ")
+      ESCREVAL ("-------------------------")
+      LEIA (OP)
+      ESCOLHA(OP)
+      CASO 1
+      LIMPATELA
+       ESCREVA ("SAIBA SUA CATEGORIA DE NADADOR!:")
+       LEIA (IFA)
+       LIMPATELA
+SE ( IFA >=5) E ( IFA <=7) ENTAO
+    ESCREVAL("INFANTIL A ")
+FIMSE
+
+SE ( IFA >= 8) E ( IFA <=10) ENTAO
+ESCREVAL("INFANTIL B")
+FIMSE
+
+SE ( IFA >=11) E ( IFA <=13) ENTAO
+ESCREVAL("JUVENIL A")
+FIMSE
+
+SE (IFA >=14) E ( IFA <= 17) ENTAO
+ESCREVAL("JUVENI B")
+FIMSE
+
+SE ( IFA >=18) E (IFA <= 25) ENTAO
+ESCREVAL("SÊNIOR")
+FIMSE
+
+SE ( IFA > 25) ENTAO
+ESCREVA("FAIXA ESTARIA INVÁLIDA!")
+FIMSE
+
+    CASO 2
+    LIMPATELA
+
+    ESCREVA ("OBRIGADO POR USAR ESSE PROGRAMA!")
+    
+FIMESCOLHA
+
+
+
+
+
+
+Fimalgoritmo
